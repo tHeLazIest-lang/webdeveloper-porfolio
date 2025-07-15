@@ -11,12 +11,70 @@
 .text-primary{
     color: #FD6E0A;
 }
+.dark-2{
+    color: #474747;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 18px 36px;
+    border-radius: 5px;
+    border: none;
+}
+/* header */
+.header{
+    background-image: url('../images/developer.png'),url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
 /* Nav styles */
 
 nav{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 230px;
 }
 .nav-title{
     font-weight: 800;
     font-size: 45px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 51px;
+
+}
+
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* banner styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 230px;
+}
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-content{
+    max-width: 585px;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 85;
+}
+.banner-profile-picture{
+    width: 580;
 }
