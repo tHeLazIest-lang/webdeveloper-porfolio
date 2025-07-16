@@ -168,3 +168,25 @@ main section{
 .resume-down-cv{
     margin-top: 50px;
 }
+
+/* footer-styles */
+footer{
+    padding:130px 230px;
+    display: flex;
+    gap : 100px;
+
+}
+.footer-col{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="Email"], footer textarea{
+    height: 30px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 30px;
+    border: none;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
